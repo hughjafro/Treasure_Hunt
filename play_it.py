@@ -14,7 +14,7 @@ class GamePlayer:
     """Plays the Lambda Treasure Hunt game."""
 
     def __init__(self):
-        self.key = '1e255e28b47f9ce58a5d14a5a6d48ea7fa6e2599'
+        self.key = 'cc2c5c9fa9852a8043ab1bf3032c7c5cc2ee68d2'
         # self.key = None
         self.auth = {"Authorization": f"Token {self.key}",
                      "Content-Type": "application/json"}
