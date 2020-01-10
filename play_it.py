@@ -32,8 +32,8 @@ class GamePlayer:
         self.bodywear = None
         self.footwear = None
         self.name_changed = True
-        self.flight = True
-        self.dash_ = True
+        self.flight = False
+        self.dash_ = False
         self.items_ = deque()
         self.places = {'shop': {'room_id': 1},
                        'flight': {'room_id': 22},
