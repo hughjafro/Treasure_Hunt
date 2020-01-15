@@ -10,6 +10,7 @@ from hashlib import sha256
 URL = 'https://lambda-treasure-hunt.herokuapp.com/'
 # URL = 'http://localhost:8000/'
 
+
 class GamePlayer:
     """Plays the Lambda Treasure Hunt game."""
 
@@ -113,7 +114,8 @@ class GamePlayer:
             self._traverse_map()
 
     def _traverse_map(self) -> None:
-        """Do a DFS to dead-end, BFS to an unexplored exit to create world map. Save map to file."""
+        """Do a DFS to dead-end,"""
+        """BFS to an unexplored exit to create world map. Save map to file."""
         print('\nBuilding map...')
         while True:
             self.DFS_DE()
